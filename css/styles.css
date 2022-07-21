@@ -169,6 +169,8 @@ section {
     width: 100%;
 }
 
+/* avaible  */
+
 .avaible {
     background-color: #9692ff8f;
     padding-top: 35rem;
@@ -201,5 +203,213 @@ section {
     background-color: pink;
     color: black;
 }
+
+.avaible-content {
+    text-align: center;
+    margin-top: 7rem;
+    
+    position: relative;
+}
+
+.img-avaible-content {
+    object-fit: cover;
+    border: 4px solid black;
+    border-radius: 20px;
+    margin-bottom: 6rem;
+}
+
+.avaible-content-title-1 {
+    position: absolute;
+    top: 20%;
+    left: 12%;
+
+
+    text-align: left;
+    width: 20%;
+}
+
+.avaible-content-title-1 h1 {
+    font-weight: bold;
+    color: black;
+}
+
+.avaible-content-title-1 h4 {
+    font-weight: bold;
+    padding-right: 4rem;
+    font-size: 1.5rem;
+}
+
+
+.avaible-content-title-2 {
+    position: absolute;
+    top: 40%;
+    right: 8%;
+
+    width: 20%;
+    text-align: left;
+
+}
+
+.avaible-content-title-2 img {
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-bottom: 1.5rem;
+}
+
+.avaible-content-title-2 p {
+    padding-right: 4.5rem;
+    padding-left: 1.2rem;
+    font-weight: 700;
+}
+
+.universe {
+    position: absolute;
+    bottom: 3%;
+    left: 29%;
+
+    object-fit: cover;
+    width: 276px;
+}
+
+/* follow */
+
+.follow {
+    margin-bottom: 5rem;
+}
+
+.follow-title {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.follow-title h5 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.follow-title h1 {
+    font-weight: bold;
+    font-size: 3.5rem;
+}
+
+.follow-content {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+
+    margin: 0 12rem;
+}
+
+.block-img-follow {
+    border-radius: 20px;
+    overflow: hidden;
+    cursor: pointer;
+
+    position: relative;
+}
+
+.block-img-follow img {
+    object-fit: cover;
+    width: 100%;
+    border-radius: 20px;
+    transition: all linear 0.8s;
+
+}
+
+.block-img-follow:hover img {
+    transform: scale(1.2);
+
+}
+
+.block-img-follow .overlay {
+    text-align: center;
+    font-size: 1.5rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #20303c88;
+    border-radius: 20px;
+    color: #fff;
+    font-weight: 700;
+    padding: 10px 30px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    opacity: 0;
+    
+}
+
+.block-img-follow:hover .overlay {
+    opacity: 1;
+}
+
+/* email */
+
+.email {
+
+}
+
+.block-email {
+    display: flex;
+    justify-content: space-between;
+
+    margin: 0 12rem;
+}
+
+.email-title {
+    
+}
+
+.email-title h1 {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.email-title p {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.email-content {
+
+}
+
+.email-content p {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.email-content .submit-email{
+    width: 100% !important;
+    background-color: black;
+    color: #fff;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.email-img {
+    text-align: center;
+    margin: 4rem 0;
+}
+
+.email-img img {
+    object-fit: cover;
+    border: 2px solid black;
+    border-radius: 10px;
+
+    position: relative;
+}
+
+
+
+
+
+
+
 
 
