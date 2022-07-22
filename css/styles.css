@@ -75,7 +75,8 @@ nav {
 /* carousel  */
 
 .carousel {
-
+    position: relative;
+    margin-bottom: 35rem;
 }
 
 .carousel-content {
@@ -116,6 +117,11 @@ nav {
     position: relative;
     z-index: 100;
 
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    transform: translateX(-50%);
+
 }
 
 .carousel-img  .img-show {
@@ -138,7 +144,7 @@ nav {
 
     position: absolute;
     top: -8.3%;
-    right: 8%;
+    right: 3%;
 }
 
 .title-carousel-img h1 {
@@ -163,8 +169,7 @@ nav {
 /* ---------- section ----------- */
 
 section {
-    position: absolute;
-    top: 100%;
+    
 
     width: 100%;
 }
@@ -405,6 +410,142 @@ section {
     position: relative;
 }
 
+/* -------- footer ---------- */
+
+/* contact */
+
+.contact {
+   display: flex;
+   justify-content: space-between;
+
+   margin: 2rem 6rem;
+   color: black;
+}
+
+.contact-title {
+    width: 40%;
+    
+}
+
+.contact-title h1 {
+    font-size: 6rem;
+    font-weight: bold;
+}
+
+.contact-content {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-menu {
+
+}
+
+.contact-menu h1 {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.contact-menu ul {
+    list-style: none;
+    font-size: 1.2rem;
+
+}
+
+.contact-menu ul li:hover {
+    color: purple;
+    cursor: pointer;
+}
+
+.contact-me {
+
+}
+
+.contact-me h1 {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.contact-me p {
+    font-size: 1.3rem;
+}
+
+.contact-me ul li {
+    display: inline-block;
+    font-size: 1.8rem;
+    margin-right: 1.2rem;
+}
+
+.contact-me ul li:hover {
+    color: purple;
+    cursor: pointer;
+}
+
+.contact-listen {
+
+}
+
+.contact-listen h1 {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.grid-listen {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 10px;
+    margin-top: 1rem;
+}
+
+.grid-listen button {
+    background-color: black;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.grid-listen button:hover {
+    background-color: pink;
+    color: #fff;
+    cursor: pointer;
+}
+
+.grid-listen button:first-child {
+    grid-column: 1/3;
+}
+
+.grid-listen button:last-child {
+    grid-column: 1/3;
+}
+
+/* copyright */
+
+.copyright {
+    background-color: black;
+    color: white;
+    height: 70px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright h1 {
+    font-size: 1.2rem;
+}
+
+.copyright h1 a {
+    text-transform: none;
+    color:#e4cc9d;
+}
+
+.copyright h1 a:hover {
+    cursor: pointer;
+}
 
 
 
