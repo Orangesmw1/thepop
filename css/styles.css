@@ -564,7 +564,7 @@ section {
 /* email */
 
 .email {
-    overflow: hidden;
+    
 }
 
 .block-email {
@@ -611,7 +611,6 @@ section {
 .email-img {
     text-align: center;
     margin: 4rem 0;
-    overflow: hidden;
 }
 
 .email-img img {
@@ -708,7 +707,86 @@ section {
     .avaible-content-title-2 .p-avail-2{
         display: none;
     }
+
+    /* follow */
+    .follow {
+
+    }
+
+    .follow h5 {
+        font-size: 1.3rem;
+    }
+
+    .follow h1 {
+        font-size: 2.8rem;
+    }
+
+    .follow-content {
+        gap: 15px;
+        grid-template-columns: repeat(2,1fr);
+        margin: 0 5rem;
+    }
+
+    .block-img-follow .overlay {
+        font-size: 1.2rem;
+    }
+
+    /* email */
+
+    .email {
+
+    }
     
+    .block-email {
+        margin: 0 5rem;
+    }
+
+    .email-title h1 {
+        font-size: 2.5rem;
+    }
+
+    .email-title p {
+        font-size: 1.2rem;
+    }
+
+    .email-content {
+        padding-left: 3rem;
+        
+    }
+
+    .email-content p {
+        font-size: 1rem;
+    }
+
+    .form-inline .form-control {
+        width: 100% !important;
+    }
+
+    .form-inline .input-group {
+        width: 100% !important;
+    }
+
+    .form-inline .form-check-label {
+        font-size: 1rem;
+    }
+
+    .input-group-prepend {
+        display: none;
+    }
+
+    .email-content .submit-email {
+        font-size: 1rem;
+        padding: 0.7rem 0 !important;
+    }
+
+    .email-img  {
+        width: 100%;
+        margin: 2rem 0;
+    }
+
+    .email-img img {
+        width: 80% ;
+    }
 }
 
 /* For Mobile Section  */
@@ -805,6 +883,93 @@ section {
     .avaible-content-title-2 .p-avail-2{
         display: none;
     }
+
+    /* follow */
+    .follow {
+        margin-bottom: 2rem;
+    }
+
+    .follow h5 {
+        font-size: 1.2rem;
+    }
+
+    .follow h1 {
+        font-size: 2.3rem;
+    }
+
+    .follow-content {
+        gap: 15px;
+        grid-template-columns: repeat(2,1fr);
+        margin: 0 1rem;
+    }
+
+    .block-img-follow .overlay {
+        font-size: 1rem;
+        padding: 0 10px;
+    }
+
+    /* email */
+
+    .email {
+       text-align: center;
+    }
+
+    .block-email {
+        flex-direction: column;
+    }
+    
+    .block-email {
+        margin: 0 1rem;
+    }
+
+    .email-title h1 {
+        font-size: 2rem;
+    }
+
+    .email-title p {
+        font-size: 1rem;
+    }
+
+    .email-content {
+       padding: 0 2rem ;
+        
+    }
+
+    .email-content p {
+        font-size: 1rem;
+        display: none;
+    }
+
+    .form-inline .form-control {
+        width: 100% !important;
+    }
+
+    .form-inline .input-group {
+        width: 100% !important;
+    }
+
+    .form-inline .form-check-label {
+        font-size: 1rem;
+    }
+
+    .input-group-prepend {
+        display: none;
+    }
+
+    .email-content .submit-email {
+        font-size: 1rem;
+        padding: 0.7rem 0 !important;
+    }
+
+    .email-img  {
+        width: 100%;
+        margin: 2rem 0;
+
+    }
+
+    .email-img img {
+        width: 90% ;
+    }
 }
 
 
@@ -816,24 +981,28 @@ section {
    display: flex;
    justify-content: space-between;
 
-   margin: 2rem 6rem;
+   margin: 2rem 12rem;
    color: black;
    overflow: hidden;
 
 }
 
 .contact-title {
-    width: 40%;
+    width: 50%;
     
 }
 
 .contact-title h1 {
-    font-size: 6rem;
+    font-size: 7rem;
     font-weight: bold;
 }
 
+.block-contact {
+    width: 50%;
+}
+
 .contact-content {
-    width: 60%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
 }
@@ -884,6 +1053,10 @@ section {
 
 .contact-listen {
 
+}
+
+.contact-listen-2 {
+    display: none;
 }
 
 .contact-listen h1 {
@@ -945,6 +1118,38 @@ section {
 
 .copyright h1 a:hover {
     cursor: pointer;
+}
+
+/* For Tablet Footer  */
+
+@media (min-width: 491px) and (max-width: 740px) {
+    /* contact */
+    .contact {
+        margin: 2rem 5rem;
+    }
+
+    .contact-title h1 {
+        font-size: 3.5rem;
+        line-height: 1;
+    }
+
+
+
+    .contact-content {
+        
+    }
+
+    .contact-menu h1 {
+        font-size: 1.3rem;
+    }
+
+    .contact-menu ul {
+        font-size: 1rem;
+    }
+
+    .contact-listen-1 {
+        display: none;
+    }
 }
 
 
