@@ -274,6 +274,7 @@ nav {
     /* nav */
     nav {
         margin: 0;
+        height: 50px;
     }
 
     .navbar-brand {
@@ -317,7 +318,7 @@ nav {
     }
 
     .carousel-content {
-        margin: 2rem 1rem 4rem;
+        margin: 1rem 1rem 4rem;
     }
 
     .carousel-content .title {
@@ -923,11 +924,11 @@ section {
     }
 
     .email-title h1 {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 
     .email-title p {
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
 
     .email-content {
@@ -949,7 +950,11 @@ section {
     }
 
     .form-inline .form-check-label {
-        font-size: 1rem;
+        font-size: 0.8rem;
+    }
+
+    .form-check-label .sr-only {
+        font-size: 0.8rem !important;
     }
 
     .input-group-prepend {
@@ -957,8 +962,8 @@ section {
     }
 
     .email-content .submit-email {
-        font-size: 1rem;
-        padding: 0.7rem 0 !important;
+        font-size: 0.9rem;
+        padding: 0.3rem 0 !important;
     }
 
     .email-img  {
@@ -1126,6 +1131,11 @@ section {
     /* contact */
     .contact {
         margin: 2rem 5rem;
+    
+    }
+
+    .contact-title {
+        width: 40%;
     }
 
     .contact-title h1 {
@@ -1133,10 +1143,16 @@ section {
         line-height: 1;
     }
 
-
+    .block-contact {
+        width: 60%;
+    }
 
     .contact-content {
         
+    }
+
+    .contact-menu {
+        margin-right: 1.5rem;
     }
 
     .contact-menu h1 {
@@ -1144,11 +1160,114 @@ section {
     }
 
     .contact-menu ul {
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
 
     .contact-listen-1 {
         display: none;
+    }
+
+    .contact-me {
+       
+    }
+
+    .contact-me h1 {
+        font-size: 1.3rem;
+    }
+
+    .contact-me p {
+        font-size: 1rem;
+    }
+
+    .contact-me ul li {
+        font-size: 1.2rem;
+    }
+
+    /* copyright */
+
+    .copyright {
+        height: 50px;
+    }
+
+    .copyright h1 {
+        font-size: 0.9rem;
+    }
+
+    
+}
+
+/* For Mobile Footer  */
+
+@media (max-width: 490px) {
+    /* contact */
+    .contact {
+        margin: 2rem 3rem;
+    
+    }
+
+    .contact-title {
+        width: 40%;
+    }
+
+    .contact-title h1 {
+        font-size: 1.8rem;
+        line-height: 1;
+    }
+
+    .block-contact {
+        width: 60%;
+        margin-left: 50px;
+    }
+
+    .contact-content {
+        justify-content: center;
+    }
+
+    .contact-menu {
+        margin-right: 1.5rem;
+        display: none;
+    }
+
+    .contact-menu h1 {
+        font-size: 1rem;
+    }
+
+    .contact-menu ul {
+        font-size: 0.8rem;
+    }
+
+    .contact-listen-1 {
+        display: none;
+    }
+
+    .contact-me {
+      
+    }
+
+    .contact-me h1 {
+        font-size: 1rem;
+    }
+
+    .contact-me p {
+        font-size: 0.8rem;
+        line-height: 1;
+
+    }
+
+    .contact-me ul li {
+        font-size: 0.8rem;
+    margin-right: 1rem;
+
+    }
+
+    /* copyright */
+
+    .copyright {
+        height: 40px;
+    }
+
+    .copyright h1 {
+        font-size: 0.8rem;
     }
 }
 
