@@ -176,6 +176,99 @@ nav {
     width: 170px;
 }
 
+/* For Ipad Header  */
+
+@media (min-width: 741px) and (max-width: 900px) {
+    /* nav */
+    nav {
+        margin: 0 1rem;
+    }
+
+    .navbar-brand {
+        font-size: 1.5rem;
+    }
+
+    .navbar-tags , .subcribe {
+        display: none;
+    }
+
+    .dropdown {
+        display: block;
+    }
+
+    .drop-items {
+        font-size: 2rem;
+    }
+
+    .drop-items i {
+        font-size: 1.8rem;
+    }
+
+    .dropdown-menu {
+        background-color: #20303cbb;
+        border: none;
+    }
+
+    .dropdown-menu.show {
+        left: unset;
+        right: -20%;
+    }
+
+    .dropdown-item {
+        color: #e4cc9d;
+        font-weight: 500;
+    }
+
+    /* carousel */
+    .carousel {
+        margin-bottom: 15rem;
+    }
+
+    .carousel-content {
+        margin: 2rem 4rem 4rem;
+    }
+
+    .carousel-content .title {
+        font-size: 3rem;
+        
+    }
+
+    .carousel-content .title-content {
+        padding: 0;
+    }
+
+    .carousel-img {
+        width: 85%;
+
+        top: 119%;
+    }
+
+    .img-show {
+        width: 100%;
+        height: 400px !important;
+    }  
+    
+    .title-carousel-img {
+        width: 300px;
+        height: 45px;
+        top: -11%;
+    }
+
+    .title-carousel-img h1 {
+        font-size: 1.3rem;
+    }
+
+    .text-circle {
+        top: -26%;
+        left: 17%;
+    }
+
+    .text-circle img {
+        width: 140px;
+    }
+}
+
+
 /* For Tablet Header  */
 
 @media (min-width: 491px) and (max-width: 740px) {
